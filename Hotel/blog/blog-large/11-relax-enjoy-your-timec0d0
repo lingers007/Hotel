@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/media/plg_system_loginpopup/css/style.css" type="text/css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Blog Large</title>
+		<description><![CDATA[LuxStar Hotel & Resort Booking Joomla Template]]></description>
+		<link>http://civicgroup.com.ng/index.php/blog/blog-large/11-relax-enjoy-your-time</link>
+		<lastBuildDate>Wed, 18 Mar 2020 19:24:28 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://civicgroup.com.ng/index.php/blog/blog-large/11-relax-enjoy-your-time?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+	</channel>
+</rss>

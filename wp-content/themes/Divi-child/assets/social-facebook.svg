@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="20px" viewBox="0 0 10 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-letter-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="4.61123288 19.7263014 0.0164383562 19.7263014 0.0164383562 0.000273972603 4.61123288 0.000273972603 9.2060274 0.000273972603 9.2060274 19.7263014"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landingpage-1920" transform="translate(-1344.000000, -5675.000000)">
+            <g id="social-media-icon-set" transform="translate(1344.000000, 5675.000000)">
+                <g id="Group-19">
+                    <g id="facebook-letter-logo">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M1.98958904,3.82082192 L1.98958904,6.53589041 L0,6.53589041 L0,9.85671233 L1.98958904,9.85671233 L1.98958904,19.7263014 L6.07671233,19.7263014 L6.07671233,9.85780822 L8.81945205,9.85780822 C8.81945205,9.85780822 9.07643836,8.26547945 9.20164384,6.52410959 L6.09260274,6.52410959 L6.09260274,4.25315068 C6.09260274,3.9139726 6.53780822,3.45808219 6.97890411,3.45808219 L9.2060274,3.45808219 L9.2060274,0.000273972603 L6.17726027,0.000273972603 C1.8890411,0.000273972603 1.98958904,3.32438356 1.98958904,3.82082192 Z" id="Fill-1" fill="#A49169" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

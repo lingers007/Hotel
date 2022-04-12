@@ -1,0 +1,1329 @@
+/*
+******************************* Categorie ****************************
+ */
+
+.page-category.suites-rooms {
+    margin-bottom: 3.90625vw;
+}
+
+.page-category.suites-rooms .entry-content {
+    margin-top:0.6vw;
+}
+
+.page-category.suites-rooms .main_title {
+    margin: 0;
+}
+
+.page-category.suites-rooms .filter-buttons {
+    display: flex;
+}
+
+
+.page-category .filter-buttons {
+    margin: 2.8645vw 0 2.9166vw;
+    width: 100%;
+    text-align: center;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.page-category .filter-buttons .cta.inactive {
+    background-color: #C7BEAB;
+}
+
+.page-category .filter-buttons .cta:hover{
+    background-color: #A49169;
+    color: #ffffff;
+}
+
+
+.page-category .filter-buttons .wrapper-cta.wrapper-filter.button {
+    display: none;
+}
+
+.page-category.suites-rooms .filter-buttons .wrapper-cta.wrapper-filter.button {
+    display: flex;
+}
+
+.page-category .filter-buttons .wrapper-cta.wrapper-filter.button.rooms{
+    margin-right: 1.5625vw;
+}
+
+.page-category .filter-buttons .wrapper-cta.wrapper-filter.button.rooms.suites{
+    margin-right: 0;
+}
+
+.wrapper-list-grid.flexing-grid .card-item.room, .wrapper-list-grid.flexing-grid .card-item.suite {
+    display: none;
+}
+
+
+.wrapper-list-grid.flexing-grid .card-item.room.active, .wrapper-list-grid.flexing-grid .card-item.suite.active {
+    display: block;
+}
+
+.page-category .filter-buttons .cta.filter-button-rooms {
+    padding: 1.25vw 3.93229vw 1.15vw;
+    font-size: 0.7778rem;
+}
+
+.wrapper-list-grid.flexing-grid {
+    margin: 3.541666667vw 6.875vw 0 6.875vw;
+    padding: 0 ;
+    max-width: 1656px;
+}
+
+.wrapper-list-grid.flexing-grid .element-list-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 0 2.8020vw 0;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
+.wrapper-list-grid.flexing-grid .card-item {
+    width: 26.5625vw;
+    /* height: 20%; */
+    margin: 0.46875vw;
+}
+
+
+
+.wrapper-list-grid.flexing-grid .card-item .list-image{
+    width: 100%;
+    height: calc(26.56vw*(12/17));
+}
+
+.wrapper-list-grid.flexing-grid .card-item .list-image a{
+    display: block;
+    height: 100%;
+}
+
+.wrapper-list-grid.flexing-grid .card-item  .list-image a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/*
+******************************** Rooms ********************************
+*/
+
+.home-page .wrapper-category-heroimage {
+    margin-bottom: 0vw;
+}
+
+.wrapper-category-heroimage{
+    height:42.1875vw;
+    position:relative;
+    margin-bottom: 2.96875vw;
+}
+
+.wrapper-category-heroimage .category-heroimage{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.wrapper-category-heroimage .category-heroimage > img{
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+    -webkit-animation: animateHeroImage 10000ms forwards;
+    animation: animateHeroImage 10000ms forwards;
+}
+
+.entry-title.main_title {
+    text-align: center;
+}
+
+.page-category .card-item {
+    text-align: center;
+}
+
+.page-category .list-link-wrap {
+    margin-top: 2.34vw;
+    margin-bottom: 1.875vw;
+}
+
+.page-category .list-speration-line {
+    height: 10px;
+    line-height: 10px;
+    margin: 0.1041vw 0vw 0.8333vw 0vw;
+    border-bottom: 1px solid #9a8c6c;
+}
+
+.page-category .list-speration-line img {
+    width: 26.5625vw;
+}
+
+.page-category .list-teaser-description {
+    min-height: 1.7rem;
+    margin-bottom: 0.9895vw;
+}
+
+.page-category .list-teaser-description, .page-category .list-teaser-description p {
+    font-family: "GothamBook";
+    text-align: center;
+    font-size: 0.7778rem;
+    color: #434242;
+    letter-spacing: 0;
+    line-height: 1rem;
+}
+
+.page-category .list-link {
+    line-height: 1rem;
+}
+
+.page-category .list-link a {
+    font-family: "GothamLight";
+    text-transform:uppercase;
+    font-size: 1.111rem;
+    line-height: 1.111rem;
+    color: #1F4E60;
+
+}
+
+.page-category .list-hover-readmore .cta {
+    background: transparent;
+    font-family: "GothamBold";
+    font-size: 0.7778rem;
+    color: #1F4E60;
+    letter-spacing: 0;
+    line-height: 0.7778rem;
+    padding: 0;
+}
+
+.review-comments {
+    display: flex;
+    justify-content: center ;
+}
+
+.review-comments .review-item {
+    width: 26vw;
+    min-height: 9.80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-comments .review-item .review-comment {
+
+    font-style: italic;
+    font-family: 'NewBaskerville-Italic';
+    font-size: 1.667rem;
+    line-height: 2.222rem;
+    text-align: center;
+    width: 17.86vw;
+    margin: 0 auto;
+    flex-grow:1;
+}
+
+.review-comments .review-item .review-stars {
+    text-align: center;
+    
+    flex-grow:1;
+
+}
+
+.review-comments .review-item .review-author {
+    font-family: "GothamBold";
+    color: #003f52;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    width: 26vw;
+    flex-grow:1;
+}
+
+
+/** Room Detail page **/
+
+.padding-23-5, .wrapper-cpt-detail {
+    padding: 0 6.875vw;
+    width: 100%;
+}
+
+.full_description {
+    font-size: 1.0rem;
+    line-height: 2.222rem;
+    font-family: 'GothamBook';
+    color: #434242;
+    padding:0 4.165vw;
+    text-align: justify;
+}
+
+.wrapper-roomSize-unites, .room-size .cell {
+    display: inline;
+}
+
+.wrapper-module.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6.718vw 4.165vw 4.1145vw 4.165vw;
+}
+
+.grid .grid-column{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-right: 4.8958vw;
+}
+
+.grid .grid-column:last-child{
+    margin-right: 0;
+}
+
+.grid .floorplan, .wrapper-floorplan{
+    width: 25.520vw;
+    flex-basis: auto;
+    flex-grow: 0;
+    text-align: center;
+}
+
+.wrapper-floorplan img {
+    width: 83%;
+}
+
+.grid-column .title-column, .custom-title-padding h3, .blue-title-alone,
+.module-description-promotion .title-column, .module-whybuy .title-column {
+    font-family: "GothamBold";
+    font-size: 1.111rem;
+    line-height: 1.111rem;
+    color: #003f52;
+    letter-spacing: 0;
+    padding-bottom: 1.5625vw;
+    border-bottom: 1px solid #9A8C6C;
+    /*margin-bottom: 2.8645vw;*/
+    margin-bottom: 1.5625vw;
+    text-align: left ;
+}
+
+
+
+.single-mod.room-size, .mod-name, .mod-icon-data, .module-description-text
+{
+  line-height: 2.222rem;
+}
+
+.grid-column .mod-icon {
+    display: none;
+}
+
+
+.cta.hidden {
+    display: none;
+}
+
+.module-contact .wrapper-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.module-contact .wrapper-cta .element-cta {
+    align-self: center;
+}
+
+.room-videoimage-container {
+    width: 44.479vw;
+    padding-bottom: 29.3%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.room-videoimage-container video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.career-videoimage-container {
+    width: 44.479vw;
+    padding: 8% 0;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.career-videoimage-container .et_pb_video_overlay {
+   /* background-size: contain;*/
+}
+
+/*
+.room-videoimage-container img {
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}*/
+.room-player {
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.room-playbutton {
+    position: absolute;
+    top: 12vw;
+    left: 50%;
+    width: 2.8125vw;
+    height: 3.28125vw;
+    /* width: 80%; */
+    /*background: rgba(154, 140, 108, 0.8);*/
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+video[poster]{
+    height:100%;
+    width:100%;
+}
+
+/** events **/
+
+.grid-column.event-floorplan {
+    padding: 6.718vw 4.165vw 4.1145vw 4.165vw;
+}
+
+.floorplan-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ul-style .single-data{
+    padding:0;
+    display: block;
+    line-height: 2.222rem;
+}
+
+.ul-style .single-data-2 {
+    padding: 0;
+    display: inline-block;
+    line-height: 2.222rem;
+}
+
+.ul-style .single-data-2:nth-child(odd)  {
+     width: 60%;
+}
+
+.ul-style .single-data-2:nth-child(even)  {
+    width: 40%;
+}
+
+.single-mod {
+    margin-top: 0.781vw;
+}
+
+.container-module {
+    margin-top: 0.781vw;
+}
+
+.container-module.grow.inline {
+    margin-top: 0;
+}
+
+.enquiry-button-container {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+/******************** Events - breakout rooms ******************** */
+.wrapper-inner-breakout_rooms-values{
+    display: table;
+    width: 30.520vw;
+}
+
+.wrapper-inner-breakout_rooms-single{
+    display: table-row;
+}
+
+.breakout_rooms-values-label{
+    display: table-cell;
+}
+
+.breakout_rooms-values-dataTable{
+    display: table;
+    width: 100%;
+}
+
+.breakout_rooms-values-dataCell{
+    display: table-cell;
+    width: 50%;
+}
+
+
+.module-contact-event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.module-contact-event .wrapper-button {
+    margin: 0 0.78125vw;
+}
+
+/******************** Dining ******************** */
+
+.welcome-text-baskerville {
+    font-family: 'NewBaskerville';
+    line-height: 2.0833vw;
+    text-align: center;
+}
+
+.et_pb_text.et_pb_module p {
+    line-height: 2.222rem;
+}
+
+.page-category.dining .filter-buttons,
+.page-category.winter-garden .filter-buttons,
+.page-category.great-central .filter-buttons,
+.page-category.meetings-events .filter-buttons,
+.page-category.event-rooms .filter-buttons,
+.page-category.flexing-grid .filter-buttons,
+.page-category.spa-health-club .filter-buttons,
+.page-category.about-the-spa .filter-buttons,
+.page-category.spa-treatments .filter-buttons,
+.page-category.spa-day-packages .filter-buttons,
+.page-category.recommendations-for-men .filter-buttons,
+.page-category.offers .filter-buttons,
+.page-category.special-offers .filter-buttons,
+.page-category.restaurants-bars .filter-buttons,
+.page-category.suites-rooms-offers .filter-buttons,
+.page-category.spa-offers .filter-buttons,
+.page-category.experiences .filter-buttons,
+.page-category.weddings .filter-buttons,
+.page-category.explore-london .filter-buttons,
+.page-category.careers .filter-buttons{
+    margin: 1.0vw 0 1.0vw;
+}
+
+.info-text-justify {
+    text-align: justify;
+}
+/*.custom-title-padding > div {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+}*/
+
+.custom-title-padding {
+    padding: 1.718vw 4.165vw 1.1145vw 4.165vw !important;
+}
+
+
+.text-type2, .typo2, .typo2 > p {
+    line-height: 2.222rem;
+}
+
+.text-type2.awards li {
+    line-height: 2.222rem;
+}
+
+.about-the-spa .text-type2 table td {
+    padding: 6px 24px !important;
+}
+.list-teaser-description {
+    text-align: justify;
+}
+.meetings-multi-buttons .et_pb_text_inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.meetings-multi-buttons .et_pb_text_inner .wrapper-cta {
+    margin: 5px;
+}
+.cpt-room .typo2 > p {
+    font-size: 1.667rem;
+    line-height: 1.778rem;
+    font-style: italic;
+    font-family: 'NewBaskerville-Italic';
+    text-align: center;
+}
+
+.capacity-chart {
+
+
+}
+
+.capacity-chart a:hover {
+    color: #A49169;
+}
+
+.capacity-chart table {
+    border-collapse:separate;
+    border-top: 0;
+}
+
+.capacity-chart tr td, .capacity-chart tr th {
+    margin:0;
+    border: 0;
+    white-space:nowrap;
+    background-color: #EFEFEF;
+
+
+}
+
+.capacity-chart .chartcontainer {
+    overflow-x:scroll;
+    overflow-y:visible;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
+.capacity-chart .chartcontainer table {
+    padding-right: .857em;
+}
+
+
+.capacity-chart .headcol {
+    position: absolute;
+    width: 10vw;
+    left: 0;
+    top: auto;
+    z-index: 1;
+    background-color: #EFEFEF;
+}
+
+.capacity-chart tr:first-child .headcol {
+    line-height: 38px;
+
+}
+
+.capacity-chart .long {
+    position: relative;
+    left:10vw;
+}
+
+
+.cpt-event .module-text.typo2.full_description, .cpt-promotion .module-text.typo2.full_description {
+    font-size: 1.667rem;
+    line-height: 1.778rem;
+    font-style: italic;
+    font-family: 'NewBaskerville-Italic';
+    text-align: center;
+    padding: 1.718vw 4.165vw 1.1145vw 4.165vw
+
+}
+
+.image_wintergarden {
+    text-align: center;
+}
+
+/* contact form */
+
+.placeholderroom {
+    display: none;
+}
+
+#roomlistform {
+    display: block;
+}
+
+#roomlistform  i {
+    color: #000000;
+}
+
+#roomlistform .btn {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+.room-contact {
+    margin: 0% 20%;
+    padding-bottom: 5%;
+}
+
+#roomlistform .form-control {
+    margin-top: 4px;
+}
+
+/*
+.padding-23-5 {
+    padding: 5% 23.125%;
+}
+
+.cpt-title-content {
+    background-color: #f4f3f1;
+    padding-bottom:0;
+}
+
+.cpt-title-content h1 {
+    text-align: center;
+    margin:0;
+}
+*/
+
+.promotion-form {
+    margin: 5% 20%;
+    padding-bottom: 5%;
+}
+
+.controle-fields {
+    display: inline-flex;
+}
+
+.controle-field {
+    margin: 0 5px;
+}
+
+#nf-field-48-wrap .nf-field-element {
+    width: auto;
+}
+
+#nf-field-48 {
+    position:absolute;
+    top:-20px;
+    opacity: 0;
+}
+
+#nf-field-48-wrap .nf-field-label {
+    display: none;
+}
+
+#nf-field-60-wrap .nf-field-element {
+    width: auto;
+}
+
+#nf-field-60 {
+    position:absolute;
+    top:-20px;
+    opacity: 0;
+}
+
+#nf-field-60-wrap .nf-field-label {
+    display: none;
+}
+
+
+#nf-field-89-wrap .nf-field-element {
+    width: auto;
+}
+
+#nf-field-89 {
+    position:absolute;
+    top:-20px;
+    opacity: 0;
+}
+
+#nf-field-89-wrap .nf-field-label {
+    display: none;
+}
+
+
+
+
+
+/* PAYMENT FORMS */
+.payment-wrapper {
+    padding: 0 23.125%;
+}
+@media (max-width: 768px) {
+    .payment-wrapper {
+        padding: 5%;
+    }
+}
+.payment-wrapper .flex1 {
+    flex: 1 0 0;
+}
+.payment-wrapper .flex2 {
+    flex: 2 0 0;
+}
+.payment-wrapper .flex3 {
+    flex: 3 0 0;
+}
+.payment-wrapper .flex4 {
+    flex: 4 0 0;
+}
+.payment-wrapper .flex5 {
+    flex: 5 0 0;
+}
+.payment-wrapper .width20 {
+    width: 20%;
+}
+.payment-wrapper .width40 {
+    width: 40%;
+}
+.payment-wrapper .width50 {
+    width: 50%;
+}
+
+.payment-wrapper .width30 {
+    width: 31%;
+}
+.payment-wrapper .width33 {
+    width: 33.333%;
+}
+.payment-wrapper .width66 {
+    width: 66.666%;
+}
+.payment-wrapper .width100 {
+    width: 100%;
+}
+.payment-wrapper * {
+    font-family: 'GothamBook';
+}
+.payment-wrapper input, .payment-wrapper select {
+    -webkit-appearance:none;
+    border-radius: 0px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    height: 2.0833vw;
+    font-family: "GothamLight";
+    font-size: 0.6667rem;
+    height: 40px;
+    font-size: 13px;
+    border: 1px solid #717073;
+    padding: 10px;
+}
+.payment-wrapper input[type="button"] {
+    height: 40px;
+    border: none;
+    background: #a49169;
+    text-transform: uppercase;
+    width: auto;
+    font-size: 0.6667rem;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    border-radius: 0 !important;
+    text-align: center;
+}
+.payment-wrapper .return-button {
+    margin: 0 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.payment-wrapper .payment-button {
+    height: 40px;
+    border: none;
+    text-transform: uppercase;
+    width: auto;
+    font-size: 14px;
+    cursor: pointer;
+}
+.payment-wrapper .payment-type-button {
+    height: 50px !important;
+    background: white !important;
+    text-transform: none !important;
+    width: 100% !important;
+    cursor: default !important;
+    text-align: left !important;
+    color: #4e4e4e !important;
+    position: relative !important;
+
+    -webkit-appearance: none !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+    text-align: left !important;
+    position: relative !important;
+    height: 40px !important;
+    font-family: "GothamLight" !important;
+    font-size: 0.6667rem !important;
+    font-size: 13px !important;
+    border: 1px solid #717073 !important;
+    padding: 10px !important;
+}
+.payment-wrapper .payment-type-select {
+    height: 50px !important;
+    border: none !important;
+    background: white !important;
+    text-transform: none !important;
+    width: 100% !important;
+    font-size: 14px !important;
+    z-index: 9999;
+    cursor: pointer !important;
+    text-align: left !important;
+    color: #747373 !important;
+    font-weight: 500 !important;
+}
+.payment-wrapper .payment-type-select:hover {
+    background: #a49169 !important;
+    color: white !important;
+}
+.payment-wrapper .input-icon {
+    position: absolute; 
+    bottom: 2px;
+    left: 12px;
+    z-index: 2;    
+    height: 37px;
+    pointer-events: none;
+}
+.payment-wrapper .input-icon-right {
+    position: absolute;
+    bottom: 2px;
+    right: 12px;
+    z-index: 2;
+    height: 37px;
+    pointer-events: none;
+}
+.payment-wrapper .input-icon-right-calendar {
+    position: absolute;
+    height: 25px;
+    bottom: 7px;
+    right: 20px;
+    z-index: 2;
+    pointer-events: none;
+}
+.payment-wrapper .payment-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 15px 0px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.payment-wrapper .payment-input-with-icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    margin: 0px 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.payment-wrapper .pound-icon {
+    margin: 0 10px 0 0;
+    font-size: 15px;
+}
+.payment-wrapper .payment-empty-row {
+    margin: 0px 0px !important;
+}
+.payment-wrapper .payment-row-fixed-space {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    margin: 15px 0px;
+    height: auto;
+    position: relative;
+}
+.payment-wrapper .payment-row-fixed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.payment-wrapper .payment-icon {
+    width: 50px;
+    height: auto;
+}
+.payment-wrapper .payment-icon2 {
+    height: 32px;
+    width: auto;
+    margin: 5px;
+}
+.payment-wrapper .payment-icon-visa {
+    width: 74px;
+    height: auto;
+    margin: 5px;
+}
+.payment-wrapper .payment-icon-ali {
+    width: 100px;
+    height: auto;
+    margin-right: 30px;
+}
+.payment-wrapper .payment-row-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+.payment-wrapper .payment-row-wrapper-auto-width {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 5px 0 5px 20px;
+    width: auto;
+    height: auto;
+}
+.payment-wrapper .payment-column, .payment-wrapper .guests-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 15px 0px;
+    width: 100%;
+    height: auto;
+}
+.payment-wrapper .payment-column-guest {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 15px 0px;
+    width: 100%;
+    height: auto;
+    background: #eee;
+    position: relative;
+}
+.payment-wrapper .payment-select-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0 10px;
+    left: 0;
+    right: 0;
+    top: -15px;
+    height: auto;
+    position: absolute;
+    border: #6D6A60 solid 1px;
+    z-index: 100;
+}
+.payment-wrapper .guest-padding {
+
+}
+.payment-wrapper .guests-container { 
+    margin: 0;
+}
+.payment-wrapper .add-guest-button {
+    width: 100px;
+}
+.payment-wrapper .payment-row-element {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 0 10px;
+    position: relative;
+}
+.payment-wrapper .custom-guest-margins {
+    margin: 0 0 15px 0;
+}
+/* The container */
+.payment-wrapper .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 0.6667rem;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: "GothamLight";
+}
+
+.payment-wrapper .min-width-set {
+    min-width: 400px;
+}
+/* Hide the browser's default checkbox */
+.payment-wrapper .container input {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: 1px;
+}
+
+/* Create a custom checkbox */
+.payment-wrapper .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: #6D6A60 solid 1px;
+}
+
+/* On mouse-over, add a grey background color */
+.payment-wrapper .checkbox .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.payment-wrapper .checkbox .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.payment-wrapper .checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.payment-wrapper .checkbox .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.payment-wrapper .checkbox .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.payment-wrapper .text {
+    margin-left: 10px;
+}
+.payment-wrapper .checkbox-distancer {
+    margin: 30px 10px;
+}
+.payment-wrapper .remove-guest-button {
+    position: absolute;
+    height: 30px !important;
+    width: 30px !important;
+    min-width: 30px !important;
+    right: 5px;
+    top: 5px;
+}
+.payment-wrapper .required {
+    width: 100%;
+}
+.payment-wrapper .display-none {
+    display: none;
+}
+.payment-wrapper .no-wrap-white-space {
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.payment-wrapper label {
+    font-family: "GothamMedium";
+    font-size: 0.6667rem;
+    font-size: 13px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+}
+.payment-wrapper .uppercase {
+    text-transform: uppercase;
+}
+.payment-wrapper .margin-left-checkbox {
+    margin-left: 10px;
+}
+.payment-wrapper #money-input {
+    width: 50%;
+    min-width: 250px;
+}
+.payment-wrapper .warning-red {
+    color: red !important;
+    font-weight: 800;
+}
+.payment-wrapper .warning-red-border {
+    border: 2px solid red !important;
+}
+.payment-wrapper .italic {
+    font-style: italic;
+    font-size: 13px;
+}
+#ui-datepicker-div {
+    z-index: 60000 !important;
+}
+
+.et-box:before {
+    display: none !important;
+}
+
+
+/* promotion */
+
+.promotion-booking {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.promowidget-image {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.promowidget-drawer .cta {
+    width: 200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.promowidget-drawer .cta a {
+    color: white;
+}
+
+.payment-wrapper #card-tooltip-hover {
+    z-index: 40;
+}
+.payment-wrapper #card-tooltip-text {
+    border: 1px solid grey;
+    background: white;
+    z-index: 5000;
+    position: absolute;
+    width: 380px;
+    font-size: 10px;
+    left: 13px;
+    top: 30px;
+    line-height: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px 0.2;
+    color: black;
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.67);
+    box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.67);
+    display: none;
+}
+
+.payment-wrapper .alipay-mobile-show {
+    display: none;
+}
+.payment-wrapper .top-separator {
+    margin-top: 50px;
+}
+.et_pb_column {
+    z-index: unset !important;
+}
+.payment-wrapper .group-header-text {
+    margin: 30px 0 30px 0;
+    font-family: "GothamBold";
+    color: #003f52;
+}
+.payment-wrapper .margin-top-20 {
+    margin-top: 20px;
+}
+@media (max-width:1000px) {
+    .payment-wrapper .no-wrap-white-space {
+        white-space: normal;
+        position: relative;
+    }
+    .payment-wrapper .payment-row {
+        flex-direction: column;
+    }
+    .payment-wrapper .width20 {
+        width: 100%;
+    }
+    .payment-wrapper .width40 {
+        width: 100%;
+    }
+    .payment-wrapper .width50 {
+        width: 100%;
+    }
+    .payment-wrapper .width30 {
+        width: 100%;
+    }
+    .payment-wrapper .width33 {
+        width: 100%;
+    }
+    .payment-wrapper .width66 {
+        width: 100%;
+    }
+    .payment-wrapper #money-input {
+        width: 100%; 
+    }
+    .payment-wrapper select[name="customerCountry"], .payment-wrapper input[name="customerPostcode"], .payment-wrapper input[name="customerTownCity"] {
+        /*margin-top: 30px;   */
+    }
+
+    .payment-wrapper .min-width-set {
+        min-width: 250px;
+    }
+    .payment-wrapper #restaurant-select-column {
+        left: 0 !important;
+        width: 94% !important;
+        top: -80px !important;
+    }
+    .payment-wrapper #occasion-select-column {
+        left: 0 !important;
+        width: 94% !important;
+    }
+    .payment-wrapper .alipay-mobile-hide {
+        display: none;
+    }
+    .payment-wrapper .alipay-mobile-show {
+        display: block;
+    }
+
+}
+
+@media (min-aspect-ratio: 17/9) and (max-aspect-ratio: 20/9) {
+
+    .header-box1 .wrapper-logo{
+        width: 11vw;
+    }
+
+    .wrapper-main_menu ul li a{
+        font-family: "GothamLight";
+        font-size: 1rem;
+        line-height: 1.333rem;
+        padding: 0.8vw 2.6vw 0.7vw;
+    }
+
+    .header-box1 .wrapper-logo img {
+        margin-top: 1.25vw;
+
+    }
+
+    .header-box1 {
+        margin-bottom: 1.25vw;
+    }
+
+    #et-main-area {
+        padding-top: 7.9vw;
+    }
+
+}
+

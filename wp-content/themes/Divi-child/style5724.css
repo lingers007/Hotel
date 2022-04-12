@@ -1,0 +1,50 @@
+/*
+ Theme Name:     Divi Child Theme
+ Theme URI:      
+ Description:    Divi Child Theme
+ Author:         Marko Sreš
+ Author URI:     
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+@import url("../Divi/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+#main-content .container{
+	padding-top:0px;
+}
+
+.container{
+	width:100%;
+	max-width:100%;
+}
+
+.container:before{
+	content:none!important;
+}
+
+.et_non_fixed_nav.et_transparent_nav.et_show_nav #page-container,
+.et_fixed_nav.et_show_nav #page-container{
+	padding-top:0;
+}
+
+#left-area{
+	padding-bottom:0;
+}
+
+.content .et_pb_section{
+	padding:0;
+}
+
+.content .et_pb_row{
+	padding:0;
+	width:100%;
+	max-width:100%;
+}
+
+.et_pb_column_4_4{
+	width:100%;
+}
